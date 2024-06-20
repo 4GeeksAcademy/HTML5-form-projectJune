@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <title>Checkout</title>
+  </head>
+  <body>
+
+  <!--outter container -->
+    <div class="border col-10 mx-auto mt-3 container-fluid bg-light p-2">
+      <h4 style="font-weight: bolder;">Payment form</h4>
+    </div>
+    
+    <!--Header-->
+    <div class="border col-10 mx-auto">
+      <div class="alert alert-danger mt-3 mx-4 row p-2" role="alert">
+        <strong style="font-size: 12px;">Some fields are missing</strong> 
+      </div>
+      <!--payment row inputs-->
+      <div class="d-flex row mx-3">
+        <fieldset class="col-5">
+        <label for="exampleFormControlInput1" class="form-label">Card #</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="XXXXXXXXXXXXXXXXXX">
+        </fieldset>
+        <fieldset class="col-2">
+        <label for="exampleFormControlInput1" class="form-label">CVC</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0000">
+        </fieldset>
+        <fieldset class="col-5">
+        <label for="exampleFormControlInput1" class="form-label">Amount</label>
+        <div class="d-flex">
+          $
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Amount">
+        </div>
+        </fieldset>
+      </div>
+    
+    
+    <!--Person info-->
+    <div class="d-flex row mx-3">
+      <fieldset class="col-6">
+        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </fieldset>
+        <fieldset class="col-6">
+          <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </fieldset>
+    </div>
+    <!--Location info-->
+    <div class="d-flex row mx-3">
+      <fieldset class="col-6">
+        <label for="exampleFormControlInput1" class="form-label">City</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </fieldset>
+        <fieldset class="col-3">
+          <label for="exampleFormControlInput1" class="form-label">State</label>
+          <select class="custom-select">
+            <option selected>Open this select menu</option>
+            <option value="1">Texas</option>
+            <option value="2">Florida</option>
+            <option value="3">California</option>
+          </select>
+          </fieldset>
+          <fieldset class="col-3">
+            <label for="exampleFormControlInput1" class="form-label">Postal Code</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </fieldset>
+    </div>
+    
+    <div class="d-flex row ml-1">
+    <p class="ml-4 mt-3 mb-0">We accept:</p>
+    <div class="mb-3 row ml-auto mr-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    </div>
+
+    <!--radio buttons-->
+    <div class="bg-secondary col-3 ml-4 mt-1 p-1 mb-5 rounded row">
+    <div class="form-check form-check-inline pl-3 px-2">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <label class="form-check-label" for="inlineRadio1"><i class="fa fa-cc-amex" style="color: white;"></i></label>
+    </div>
+    <div class="form-check form-check-inline px-2">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2"><i class="fa fa-cc-diners-club" style="color: white;"></i></label>
+    </div>
+    <div class="form-check form-check-inline px-2">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2"><i class="fa fa-cc-discover" style="color: white;"></i></label>
+    </div>
+    <div class="form-check form-check-inline px-2">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2"><i class="fa fa-cc-mastercard" style="color: white;"></i></label>
+    </div>
+    
+
+</div>
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
